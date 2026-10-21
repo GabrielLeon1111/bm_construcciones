@@ -367,6 +367,7 @@ class _PorCategoria extends StatelessWidget {
                                   child: Text('${c.category} (${c.count})',
                                       maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w600)),
                                 ),
+                                const SizedBox(width: 8),
                                 Text(gs(c.amount), style: const TextStyle(fontWeight: FontWeight.w800, fontFeatures: [FontFeature.tabularFigures()])),
                               ],
                             ),

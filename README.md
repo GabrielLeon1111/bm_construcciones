@@ -15,6 +15,24 @@ todos los dispositivos ven lo mismo al instante.
 > La app está pensada primero para el celular: todas las pantallas se adaptan a pantallas angostas
 > y se amplían en tablets y en la computadora.
 
+## Capturas
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/capturas/inicio.png" width="240" alt="Inicio"><br><b>Inicio</b><br>Lo vendido hoy, gastos y ganancia real</td>
+    <td align="center"><img src="docs/capturas/vender.png" width="240" alt="Vender"><br><b>Vender</b><br>Caja abierta, carrito con descuento y media carga</td>
+    <td align="center"><img src="docs/capturas/cierre_caja.png" width="240" alt="Cierre de caja"><br><b>Cierre de caja</b><br>Conteo de billetes y monedas</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/capturas/gastos.png" width="240" alt="Gastos"><br><b>Gastos</b><br>Por categoría y por día</td>
+    <td align="center"><img src="docs/capturas/reportes.png" width="240" alt="Reportes"><br><b>Reportes</b><br>Ganancia de ventas − gastos = ganancia real</td>
+    <td></td>
+  </tr>
+</table>
+
+> Las capturas usan **datos de ejemplo**. Se generan solas con
+> `CAPTURAS=1 flutter test --update-goldens test/capturas_readme_test.dart`.
+
 ---
 
 ## Índice
